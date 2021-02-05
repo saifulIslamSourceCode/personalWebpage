@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #000000cf;
+	color: #898989;
+	font-family: 'Oswald', sans-serif;
+	background-image: url("body_mmg.jpg");
+	background-size: 100% 100%;  /* This way, the image fills the entire space of the box */
+	background-repeat: no-repeat; /* if the image will repeat or not, in case it is smaller than the box */
+	background-position: center; /*  defines the image position inside the box */
+	background-origin: content-box; /* defines where the image boundaries are positioned, for example, on the <div> border, or in the <div> content, ... (the background positioning area)*/
+	background-position: fixed;
+	background-attachment: fixed;
+	font-size: 23px;
+}
+.container{
+	margin: 40px;
+	border-radius: -19%;
+}
+main{
+	border-radius: 5%;
+	overflow: hidden;
+}
+.sec{
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+}
+.about_div{
+	width: 100%;
+	padding: 75px 0 0 0;
+	overflow: hidden;
+	display: flex;
+	margin-top: 7rem;
+}
+.img_div{
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.info_div{
+	width: 40%;
+	margin: 20px 0 0 41px;
+}
+.img_div img{
+	width: 55%;
+	height: 49%;
+	border-radius: 50%;
+	float: right;
+	border: 15px solid #0b66ea;
+	transition: 0.7s;
+}
+.img_div img:hover{
+	opacity: 0.7;
+}
+.contact {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.7;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+a.link {
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-top: 56px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+a.link:hover {
+	color: white;
+}
+.contact i{
+
+	padding: 20px 5px 0px 48px;
+}
+.info_div p:first-child{
+  margin: 0;
+	line-height: 18px;
+	font-size: 16px;
+}
+p{
+	letter-spacing: 1px;
+}
+h1{
+	padding: 0;
+	margin: 0px;
+	color: white;
+}
+.cote {
+    text-align: center;
+    margin-top: 48px;
+    font-size: 23px;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+}
+.hired_div{
+	text-align: center;
+	width: 392px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.all_btn{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 5px;
+	font-size: 22px;
+	display: inline-block;
+	border: 2px solid #0b66ea;
+	padding: 5px 19px;
+	width: 85px;
+	border-radius: 10px;
+	background-color: #0f0f0f;
+	transition: 0.7s;
+	margin: 0px 10px;
+}
+.all_btn:hover{
+	background-color: #0b66ea;
+}
+/*-----------------------------section 1 end*/
+.sec_2 h1{
+	margin: 0;
+	text-align: center;
+	margin-bottom: 80px;
+	color: white;
+}
+.about_me_div{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.content_about{
+	width: 45%;
+	text-align: end;
+	padding-top: 50px;
+	height: 30%;
+	letter-spacing: 1px;
+}
+.content_about h3{
+	margin: 0;
+	margin-bottom: 10px;
+}
+.line{
+	height: 60%;
+	width: 1px;
+	background-color: #a0a0a0;
+	margin: 20px;
+}
+.skills{
+ width: 45%;
+ padding-top: 50px;
+}
+.skills h3{
+	margin: 0;
+}
+.skills_div_inner{
+	
+	margin-top: 53px;
+}
+.skills_div_inner i{
+	font-size: 39px;
+}
+.skill_scale{
+
+	padding: 10px;
+	height: 37px;
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+.skill_scale .html_per{
+  height: 10px;
+	border: 1px solid;
+	width: 10px
+}
+.skill_scale .per{
+
+	width: 225px;
+	border: 1px solid;
+	height: 14px;
+	margin: auto;
+	border-radius: 7px;
+}
+.skill_scale .color{
+	height: 100%;
+	background-color: #0b66ea;
+	border-radius: 7px;
+}
+.color_html{
+	width: 80%;
+}
+.skill_scale .color_css{
+	width: 80%;
+}
+.skill_scale .color_js{
+	width: 60%;
+}
+.skill_scale smale{
+	font-size: 11px;
+	margin: 9px 0px;
+}
+.cv_btn{
+	width: 155px;
+	margin: 0px;
+	margin-top: 15px;
+}
+/*---------------------section 2 end*/
+.sec_3{
+	height: 70vh;
+}
+.sec_3 h1{
+	text-align: center;
+}
+.fun_facts{
+	padding: 39px;
+	background-color: #333;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+	width: 167px;
+	transition: 0.7s;
+	border: 2px solid #515151;
+}
+.fun_facts:hover{
+	transform: translateY(-10px);
+	box-shadow: 5px 10px 8px 0px #007ced;
+}
+.fun_facts_main_div{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: 60px;
+	padding: 10px 120px;
+}
+.fun_facts_main_div i{
+	color: #007ced;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+}
+.fun_facts span{
+	padding: 10px 0;
+	display: block;
+	letter-spacing: 2px;
+	font-size: 17px;
+}
+/*---------------section 3 end*/
+
+.sec_4{
+
+	height: 75vh;
+}
+.main_contrct_div{
+	
+	display: flex;
+	padding: 60px 60px 0px 60px;
+	justify-content: space-between;
+}
+.left div{
+	margin: 0px 0px 25px 0px
+}
+.left div i{
+  color: #007ced;
+}
+.right{
+
+	width: 50%;
+}
+input {
+  width: 70%;
+  padding: 14px;
+  margin: 1px 0 15px 0;
+  border: 3px solid #007ced;
+  border-radius: 13px;
+}
+label{
+	display: block;
+}
+textarea{
+	
+	width: 70%;
+	border: 3px solid #007ced;
+	border-radius: 13px;
+	padding: 14px;
+}
+footer{
+	text-align: right;
+	color: white;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #e1e1e1;
+}
+.contact_div button{
+    width: 90px;
+    padding: 7px;
+    background: #007ced;
+    border: 0px;
+    border-radius: 3px;
+    color: #fbfbfb;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+}
+
+
+
